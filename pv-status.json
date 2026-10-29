@@ -1,0 +1,51 @@
+{
+  "runId": "dealers-voice-survey-page-audit-v3-redesign-20261012-104005",
+  "mode": "selected-sections",
+  "sections": [
+    "your-dealers-know-what-your-data-doesn-t",
+    "dealer-insights-dashboard",
+    "our-clients",
+    "what-s-impacting-your-dealers",
+    "how-we-capture-dealer-needs",
+    "what-makes-our-way-different",
+    "our-impact",
+    "what-our-clients-say",
+    "faqs",
+    "our-resources",
+    "explore-other-surveys"
+  ],
+  "simulated": [],
+  "unavailable": [],
+  "verdict": "incomplete",
+  "failedRequired": 0,
+  "unverifiedRequired": 1063,
+  "gaps": [
+    {
+      "kind": "unverified",
+      "family": "budget",
+      "count": 1,
+      "text": "verification budget exhausted: no new verification was allowed (time: 17 of 15 min of active time used); nothing is kept (the preview source changed (or is gone) since it was verified) and every required check is unverified. A deliberate re-run needs --reset-budget"
+    },
+    {
+      "kind": "unverified",
+      "family": "fidelity:not-compared",
+      "count": 1,
+      "text": "design and state fidelity was not compared (no verification was allowed)"
+    },
+    {
+      "kind": "unverified",
+      "family": "target",
+      "count": 199,
+      "text": "199 of 199 resolved target(s) not verified in the rendered preview (0 failed)"
+    },
+    {
+      "kind": "unverified",
+      "family": "preserve",
+      "count": 862,
+      "text": "862 preserve decision(s) could not be verified (insufficient evidence; 862 actionable / 0 by-design): not measured ×862"
+    }
+  ],
+  "gapsTruncated": 0,
+  "disclosed": [],
+  "disclosedTruncated": 0
+}
